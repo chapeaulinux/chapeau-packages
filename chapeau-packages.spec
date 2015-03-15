@@ -3,7 +3,7 @@
 Summary:	Chapeau
 Name:		chapeau-packages
 Version:	1
-Release:	0
+Release:	2
 License:	distributable
 Group:		Chapeau
 URL:		http://chapeaulinux.org
@@ -11,7 +11,7 @@ BuildArch:	noarch
 
 Requires:	plymouth-theme-chapeau
 Requires:	chapeau-logos
-Requires:	chapeau-release
+Requires:	chapeau-repos
 #Requires:	chapeau-gnome-backgrounds
 #Requires:	chapeau-gnome-defaults
 #Requires:	chapeau-firefox-defaults
@@ -36,6 +36,9 @@ A meta package which requires the packages unique to the Chapeau Remix
 
 
 %changelog
+* Sat Jan 03 2015 Vince Pooley <vince@chapeaulinux.org>
+- chapeau-repos package added
+
 * Mon Jan 13 2014 Vince Pooley <vince@chapeaulinux.org>
 - initial release
 
