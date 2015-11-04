@@ -3,7 +3,7 @@
 Summary:	Chapeau
 Name:		chapeau-packages
 Version:	2
-Release:	1%{?dist}
+Release:	3%{?dist}
 License:	distributable
 Group:		Chapeau
 URL:		http://chapeaulinux.org
@@ -14,8 +14,9 @@ Requires:	chapeau-logos
 Requires:	chapeau-repos
 Requires:	chapeau-backgrounds
 Requires:	chapeau-gnome-theme
-Requires:	b43-firmware
+#Requires:	b43-firmware
 Requires:	yumex-dnf
+Requires:	hht
 Obsoletes:	yumex
 #Requires:	chapeau-gnome-defaults
 #Requires:	chapeau-firefox-defaults
@@ -40,6 +41,12 @@ A meta package which requires the packages unique to the Chapeau Remix
 
 
 %changelog
+* Thu Nov 05 2015 Vince Pooley <vince@chapeaulinux.org>
+- Commented requirement for b43-firmware package for now
+
+* Tue Nov 03 2015 Vince Pooley <vince@chapeaulinux.org>
+- Added requirement for hht
+
 * Fri Jun 12 2015 Vince Pooley <vince@chapeaulinux.org>
 - Added requirement for yumex-dnf & Broadcom firmware package
 - Obsoletes yumex package
